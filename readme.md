@@ -6,4 +6,4 @@ _Use nodejs for execution (e.g. `node filename.js`)._
 
 Examples
 
-* [Iterators](#iterators)
+* [Iterators](iterators)
