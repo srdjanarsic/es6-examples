@@ -1,4 +1,3 @@
-
 var myIterable = {};
 myIterable[Symbol.iterator] = function* () {
     yield "Hello";
@@ -6,6 +5,6 @@ myIterable[Symbol.iterator] = function* () {
     yield "!";
 };
 
-for (let value of myIterable) { 
-    console.log(value); 
+for (let value of myIterable) {
+    console.log(value);
 }
